@@ -21,7 +21,8 @@
     "react-router": "^6.4.0",
     "react-router-dom": "^6.4.0",
     "sort-by": "^0.0.2",
-    "yup": "^0.32.11"
+    "yup": "^0.32.11",
+    "yup-password": "^0.2.2"
   },
   "devDependencies": {
     "@types/react": "^18.0.17",

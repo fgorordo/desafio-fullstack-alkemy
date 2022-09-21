@@ -29,7 +29,7 @@ const LoginForm = () => {
   }
   return (
     <Container maxWidth="sm" elevation={2}>
-      <Paper elevation={24} sx={{padding:{xs:"2rem",sm:"4rem"},}}>
+      <Paper elevation={24} sx={{padding:{xs:"2rem",sm:"4rem"}}}>
         <Formik
           initialValues={{...INITIAL_FORM_STATE}}
           validationSchema={FORM_VALIDATION}
@@ -57,7 +57,7 @@ const LoginForm = () => {
                 <CommonCheckbox name="remember_me" label="Recordar mi cuenta"/>
               </Grid>
               <Grid item xs={12}>
-                <SendButton>
+                <SendButton size="large">
                   Ingresar
                 </SendButton>
               </Grid>
@@ -68,7 +68,7 @@ const LoginForm = () => {
               </Grid>
               <Grid item xs={12} component={Link} to="/register" sx={{textDecoration:"none", color:'#1565c0'}}>
                 <Typography textAlign="center">
-                  ¿Aún no tienes cuenta?<span>Click Aqui</span>
+                  ¿Aún no tienes cuenta? <b>click aquí.</b>
                 </Typography>
               </Grid>
             </Grid>
