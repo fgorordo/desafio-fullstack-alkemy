@@ -46,7 +46,7 @@ const RegisterForm = () => {
   };
 
   return (
-    <Container maxWidth="md">
+    <Container maxWidth="sm">
       <Paper elevation={24} sx={{ padding: { xs: "2rem", sm: "4rem" } }}>
         <Formik
           initialValues={{...INITIAL_FORM_STATE}}

@@ -8,6 +8,7 @@ const PrimaryButton = ({ children, alt, ...otherProps }) => {
     ...otherProps,
     variant: "contained",
     color: "primary",
+    fullWidth: true,
   };
 
   const primaryButtonAltConfig = {
