@@ -1,16 +1,14 @@
 module.exports = (sequelize, DataTypes) => {
   const Record = sequelize.define('Records', {
     recordId: {
-      type: DataTypes.STRING,
+      type: DataTypes.INTEGER,
       allowNull: false,
-      primaryKey: true
+      primaryKey: true,
+      autoIncrement: true
     },
     concept: {
       type: DataTypes.STRING,
       allowNull: false
-    },
-    type: {
-      type: DataTypes.STRING
     },
     amount: {
       type: DataTypes.STRING,
@@ -21,6 +19,13 @@ module.exports = (sequelize, DataTypes) => {
     tableName: 'records',
     underscored: true
   });
+
+  Record.associate = (db) => {
+    Record.belongsTo(db.Users, {
+      foreignKey: 'userId',
+      as: 'records'
+    });
+  };
 
   return Record;
 };

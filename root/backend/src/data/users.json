@@ -1,0 +1,37 @@
+[
+  {
+	"firstName": "Jhon",
+	"lastName": "Doe",
+	"email": "johndoe@gmail.com",
+	"password": "MyPassword123!",
+	"repassword": "MyPassword123!"
+  },
+  {
+	"firstName": "Valentino",
+	"lastName": "Morose",
+	"email": "valentinomorose@gmail.com",
+	"password": "MyPassword123!",
+	"repassword": "MyPassword123!"
+  },
+  {
+	"firstName": "Miles",
+	"lastName": "Tone",
+	"email": "milestone@gmail.com",
+	"password": "MyPassword123!",
+	"repassword": "MyPassword123!"
+  },
+  {
+	"firstName": "Fletch",
+	"lastName": "Skinner",
+	"email": "fletchskinner@gmail.com",
+	"password": "MyPassword123!",
+	"repassword": "MyPassword123!"
+  },
+  {
+    "firstName": "Giles",
+    "lastName": "Posture",
+    "email": "gilesposture@gmail.com",
+    "password": "MyPassword123!",
+    "repassword": "MyPassword123!"
+  }
+]

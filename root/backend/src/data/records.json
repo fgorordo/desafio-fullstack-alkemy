@@ -1,0 +1,10 @@
+[
+  {
+    "amount": 3000,
+    "typeId": 1,
+    "category": 1,
+    "concept": "Hello world",
+    "date": "DATE PLACEHOLDER",
+    "userId": 1
+  }
+]

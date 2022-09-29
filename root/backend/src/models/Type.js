@@ -1,6 +1,6 @@
 module.exports = (sequelize, DataTypes) => {
-  const Category = sequelize.define('Categories', {
-    categoryId: {
+  const Type = sequelize.define('Types', {
+    typeId: {
       type: DataTypes.INTEGER,
       primaryKey: true,
       allowNull: false,
@@ -11,9 +11,9 @@ module.exports = (sequelize, DataTypes) => {
       allowNull: false
     }
   }, {
-    tableName: 'categories',
+    tableName: 'types',
     underscored: true
   });
 
-  return Category;
+  return Type;
 };
