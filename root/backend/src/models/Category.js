@@ -3,7 +3,6 @@ module.exports = (sequelize, DataTypes) => {
     categoryId: {
       type: DataTypes.INTEGER,
       primaryKey: true,
-      allowNull: false,
       autoIncrement: true
     },
     name: {
@@ -11,8 +10,7 @@ module.exports = (sequelize, DataTypes) => {
       allowNull: false
     }
   }, {
-    tableName: 'categories',
-    underscored: true
+    tableName: 'categories'
   });
 
   return Category;

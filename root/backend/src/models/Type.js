@@ -11,8 +11,7 @@ module.exports = (sequelize, DataTypes) => {
       allowNull: false
     }
   }, {
-    tableName: 'types',
-    underscored: true
+    tableName: 'types'
   });
 
   return Type;

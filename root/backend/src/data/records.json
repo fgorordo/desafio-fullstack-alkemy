@@ -1,10 +1,38 @@
 [
   {
-    "amount": 3000,
-    "typeId": 1,
-    "category": 1,
-    "concept": "Hello world",
+    "amount": 1000,
+    "concept": "Ingreso 1",
     "date": "DATE PLACEHOLDER",
     "userId": 1
+  },
+  {
+    "amount": -500,
+    "concept": "Egreso 1",
+    "date": "DATE PLACEHOLDER",
+    "userId": 1
+  },
+  {
+    "amount": 300,
+    "concept": "Ingreso 2",
+    "date": "DATE PLACEHOLDER",
+    "userId": 1
+  },
+  {
+    "amount": 1000,
+    "concept": "Ingreso 1",
+    "date": "DATE PLACEHOLDER",
+    "userId": 2
+  },
+  {
+    "amount": -500,
+    "concept": "Egreso 1",
+    "date": "DATE PLACEHOLDER",
+    "userId": 2
+  },
+  {
+    "amount": 300,
+    "concept": "Ingreso 2",
+    "date": "DATE PLACEHOLDER",
+    "userId": 2
   }
 ]

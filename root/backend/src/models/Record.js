@@ -12,12 +12,10 @@ module.exports = (sequelize, DataTypes) => {
     },
     amount: {
       type: DataTypes.STRING,
-      allowNull: false,
-      unique: true
+      allowNull: false
     }
   }, {
-    tableName: 'records',
-    underscored: true
+    tableName: 'records'
   });
 
   Record.associate = (db) => {

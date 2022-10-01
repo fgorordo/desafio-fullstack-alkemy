@@ -1,8 +1,9 @@
 const app = require('./config/server');
 const PORT = process.env.PORT || 3000;
 const db = require('./models/index');
-const UsersToInject = require('./data/users.json');
 const bcrypt = require('bcryptjs');
+const UsersToInject = require('./data/users.json');
+const records = require('./data/records.json');
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
@@ -17,8 +18,8 @@ app.listen(PORT, () => {
         delete userWithHashedPassword.repassword;
         return userWithHashedPassword;
       });
-      console.log(hashedUsers);
       db.Users.bulkCreate(hashedUsers);
+      db.Records.bulkCreate(records);
     })
     .then(() => {
       console.log('Database sync successfully');

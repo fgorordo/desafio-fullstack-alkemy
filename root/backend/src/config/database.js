@@ -4,7 +4,11 @@ module.exports = {
     password: process.env.DB_PASSWORD,
     database: process.env.DB_NAME,
     host: process.env.DB_HOST,
-    dialect: 'mariadb'
+    dialect: 'postgres',
+    port: process.env.DB_PORT,
+    dialectOptions: {
+      ssl: true
+    }
   },
   test: {
     username: 'root',

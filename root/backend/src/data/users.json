@@ -18,7 +18,8 @@
 	"lastName": "Tone",
 	"email": "milestone@gmail.com",
 	"password": "MyPassword123!",
-	"repassword": "MyPassword123!"
+	"repassword": "MyPassword123!",
+  "resumeAmount": -500
   },
   {
 	"firstName": "Fletch",
