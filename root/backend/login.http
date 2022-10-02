@@ -1,0 +1,10 @@
+POST http://localhost:3000/api/v1/users/login/login-dev
+Content-Type: application/json
+
+{
+  "email": "johndoe@gmail.com",
+	"password": "MyPassword123!"
+}
+###
+GET http://localhost:3000/api/v1/read-token-test
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImVtYWlsIjoiam9obmRvZUBnbWFpbC5jb20iLCJpYXQiOjE2NjQ2NjYxNzIsImV4cCI6MTY2NDY2OTc3Mn0.Wq2zDxORxyOMvBb6D074UDQLV-v84WZE6l-Ten-qAW0
